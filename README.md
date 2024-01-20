@@ -4,6 +4,7 @@ This repository comprises data visualizations and statistical analyses of the Bo
 ## Introduction: ##
 - Analyse the relationship between various features of Boston's house prices and the housing market, perform data analysis and generate insights.
 - The dataset used is sourced from Kaggle: ([Boston House Prices-Advanced Regression Techniques](https://www.kaggle.com/datasets/fedesoriano/the-boston-houseprice-data/data)), published in a book in 1978.
+- Project idea from: https://hackernoon.com/15-excel-datasets-for-data-analytics-beginners
 
 ## Problems and Solutions: ##
 
@@ -35,8 +36,15 @@ For example, a higher pupil-teacher ratio might be associated with resource cons
 <img width="452" alt="image" src="https://github.com/marianahiroki/CS-Excel-Boston-House-Prices/assets/110165879/e091bf40-466d-47af-a798-4d1eaddec26f">
 
 
-
 ## Conclusion: ## 
 
+- **Impact of Features on Home Values:** RM (number of rooms) has the highest correlation with MEDV (Median value of owner-occupied homes in $1000's [k$])
+- **Educational Landscape:** It is possible to evaluate whether areas with lower pupil-teacher ratios correlate with higher median home values, potentially indicating better-funded schools.
+- **Age of Homes:** The dataset provided does not provide enough information to calculate the age of the homes. Additional historical context or specific data on construction years would be required.
 
 ## Next steps: ##
+
+- Similarly with the examples shown, it is possible to investigate:
+  - **Environmental Factors:** the impact of environmental factors such as nitric oxide concentration (NOX) and proximity to the Charles River (CHAS) on median home values. Assess whether cleaner air and river proximity correlate with higher property values.
+  - **Property Tax Rates:** Examine the distribution of property-tax rates (TAX) and assess whether towns with higher tax rates tend to have lower median home values or vice versa.
+- Understanding the context of Boston, the U.S. and additional data would help to make sense of the data provided and help price prediction.
